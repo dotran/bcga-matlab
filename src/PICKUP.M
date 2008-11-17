@@ -7,7 +7,7 @@
 % Output:                                                                                                                    %
 %    rnum- random number between 1 and num                                                        %
 %                                                                                                                                %
-% Copyright (c) 2000 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
+% Copyright (c) 2002 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
 %*************************************************************************%
 function rnum= Pickup(num)
 

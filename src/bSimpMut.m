@@ -11,7 +11,7 @@
 %    pop- mutated population, matrix                                                                           %
 %    nmutat- number of times mutation was performed                                                %
 %                                                                                                                                %
-% Copyright (c) 2000 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
+% Copyright (c) 2002 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
 %*************************************************************************%
 function [pop,nmutat]= bSimpMut(pop,popsize,lchrom,pmutat)
 

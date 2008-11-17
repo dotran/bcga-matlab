@@ -9,7 +9,7 @@
 % Output:                                                                                                                    %
 %    newpop- selected population, matrix                                                                   %
 %                                                                                                                                %
-% Copyright (c) 2000 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
+% Copyright (c) 2002 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
 %*************************************************************************%
 function newpop=Select(pop,popsize,idxchrom)
 

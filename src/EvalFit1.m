@@ -1,33 +1,20 @@
 %*************************************************************************%
-% The RWSEL function performs roulette wheel selection                                          %
+% The EVALFIT1 function converts objective function values into fitness                     %
 %                                                                                                                                %
-% function newpop= RwSel(pop,popsize,fitness)                                                       %
+% function fitness= EvalFit1(objfunc,popsize)                                                             %
 % Input:                                                                                                                      %
-%    pop- population of chromosomes, matrix                                                            %
+%    objfunc- objective function value, vector                                                              %
 %    popsize- population size                                                                                     %
-%    fitness- fitness, vector                                                                                         %
 % Output:                                                                                                                    %
-%    newpop- mating pool, matrix                                                                               %
+%    fitness- fitness, vector                                                                                         %
 %                                                                                                                                %
 % Copyright (c) 2002 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
 %*************************************************************************%
-function newpop= RwSel(pop,popsize,fitness)
+function fitness= EvalFit1(objfunc,popsize)
 
-fitsum= sum(fitness);
-if(fitsum ~= 0)
-	psel= fitness/fitsum;
-	cumpsel= cumsum(psel);
-	for i= 1:popsize
-		k= 1;
-		test= rand;
-		while(test > cumpsel(k))
-			k= k+1;
-		end 
-		newpop(i,:)= pop(k,:);
-	end
-else
-	for i= 1:popsize
-		k= Pickup(popsize);
-		newpop(i,:)= pop(k,:);
-	end
+fitness= 1./(0.002+objfunc);
+
+fitmin= min(fitness);
+if(fitmin < 0)
+	disp('Fitness is negative  !');
 end

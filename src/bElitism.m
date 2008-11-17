@@ -15,7 +15,7 @@
 %    x- modified variables, matrix                                                                                %
 %    objfunc- modified objective function value                                                           %
 %                                                                                                                                %
-% Copyright (c) 2000 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
+% Copyright (c) 2002 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
 %*************************************************************************%
 function [pop,x,objfunc]= bElitism(pop,x,objfunc,chrombest,xbest,objbest,maxmin)
 

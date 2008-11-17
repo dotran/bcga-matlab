@@ -17,7 +17,7 @@
 %    objave- average objective function value                                                            %
 %    gam- minimun of objfunc or -objfunc                                                                  %
 %                                                                                                                                %
-% Copyright (c) 2000 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
+% Copyright (c) 2002 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
 %*************************************************************************%
 function [chrombest,xbest,objbest,fitbest,objave,gam]= bStatPop(pop,x,objfunc,...
                                                                                            fitness,maxmin)

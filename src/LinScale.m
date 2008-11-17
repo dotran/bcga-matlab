@@ -8,7 +8,7 @@
 % Output:                                                                                                                    %
 %    scalefit- linearly scaled fitness                                                                            %
 %                                                                                                                                %
-% Copyright (c) 2000 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
+% Copyright (c) 2002 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
 %*************************************************************************%
 function scalefit= LinScale(rawfit, sfactor)
 

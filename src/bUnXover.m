@@ -11,7 +11,7 @@
 %    pop- mated population, matrix                                                                             %
 %    nxover- number of times crossover was performed                                            %
 %                                                                                                                                %
-% Copyright (c) 2000 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
+% Copyright (c) 2002 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
 %*************************************************************************%
 function [pop,nxover]= bUnXover(pop,popsize,lchrom,pcross)
 

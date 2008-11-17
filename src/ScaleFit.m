@@ -11,7 +11,7 @@
 % Output:                                                                                                                    %
 %    fitness- scaled fitness, vector                                                                             %
 %                                                                                                                                %
-% Copyright (c) 2000 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
+% Copyright (c) 2002 by Prof. Gang-Gyoo Jin, Korea Maritime University                    % 
 %*************************************************************************%
 function fitness= ScaleFit(objfunc,popsize,gam,maxmin)
 
